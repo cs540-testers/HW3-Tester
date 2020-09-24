@@ -24,4 +24,4 @@ When you are convinced that you have a correct solution, please do the following
 If your output matches ref, we will close your ticket. If not, we can discuss a resolution at  
 https://discord.gg/CuJdjN  
   
-DO NOT POST ANY CODE TO ISSUES.  
+DO NOT SHARE ANY CODE.
