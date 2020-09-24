@@ -1,0 +1,7 @@
+# Ignore all files
+*
+
+# but not the gitignore, ref or tester
+!.gitignore
+!test.py
+!ref.txt
