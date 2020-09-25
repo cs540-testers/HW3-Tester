@@ -18,7 +18,8 @@ import time
 import difflib
 import random
 
-version = "V1.0"
+# we're still not sure about the solution to queens_restart yet
+version = "V0.1"
 
 if __name__ == '__main__':
     print("Tester %s" % version)
