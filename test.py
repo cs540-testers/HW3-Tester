@@ -16,6 +16,7 @@ import sys
 from nqueens import *
 import time
 import difflib
+import random
 
 version = "V1.0"
 
@@ -64,12 +65,13 @@ if __name__ == '__main__':
     print(n_queens([0, 7, 3, 4, 7, 1, 2, 2], 0, 0))
     print("n_queens tests complete\n")
 
+    random.seed(1)
     # n_queens_restart does not return anything. it only prints.
-    # print("n_queens_restart(7, 10, 0, 0)")
-    # n_queens_restart(7, 10, 0, 0)
-    # print("n_queens_restart(8, 1000, 0, 0)")
-    # n_queens_restart(8, 1000, 0, 0)
-    # print("n_queens_restart tests complete\n")
+    print("n_queens_restart(7, 10, 0, 0)")
+    n_queens_restart(7, 10, 0, 0)
+    print("n_queens_restart(8, 1000, 0, 0)")
+    n_queens_restart(8, 1000, 0, 0)
+    print("n_queens_restart tests complete\n")
 
     endtime = time.time()
 
