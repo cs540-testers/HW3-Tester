@@ -25,7 +25,7 @@ choose_next([0, 2, 0], 0, 0)
 choose_next([0, 1, 0], 0, 0)
 [0, 2, 0]
 choose_next([0, 1, 0], 0, 1)
-[0, 2, 0]
+None
 choose_next tests complete
 
 n_queens([0, 1, 2, 3, 5, 6, 6, 7], 1, 1)
