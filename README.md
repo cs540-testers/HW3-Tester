@@ -13,7 +13,16 @@ py test.py
 ```
 on some Windows systems.  
   
-The tester will generate a test.txt. Deleting or modifying it doesn't affect the tester.  
+The tester will generate a test.txt. Deleting or modifying it doesn't affect the tester.
+
+---
+**NOTE: Do not set random.seed() in your code!!!**
+
+To successfully test random results, we have fixed the random seed to 1.
+If you are setting the seed in your code, remove it so you get the same sequence
+as the tester.
+
+---
   
 When you are convinced that you have a correct solution, please do the following:  
 1) Run the tester  
