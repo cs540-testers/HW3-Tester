@@ -65,11 +65,11 @@ if __name__ == '__main__':
     print("n_queens tests complete\n")
 
     # n_queens_restart does not return anything. it only prints.
-    print("n_queens_restart(7, 10, 0, 0)")
-    n_queens_restart(7, 10, 0, 0)
-    print("n_queens_restart(8, 1000, 0, 0)")
-    n_queens_restart(8, 1000, 0, 0)
-    print("n_queens_restart tests complete\n")
+    # print("n_queens_restart(7, 10, 0, 0)")
+    # n_queens_restart(7, 10, 0, 0)
+    # print("n_queens_restart(8, 1000, 0, 0)")
+    # n_queens_restart(8, 1000, 0, 0)
+    # print("n_queens_restart tests complete\n")
 
     endtime = time.time()
 
