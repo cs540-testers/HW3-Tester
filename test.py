@@ -19,7 +19,7 @@ import difflib
 import random
 
 # we're still not sure about the solution to queens_restart yet
-version = "V0.1"
+version = "V1.0"
 
 if __name__ == '__main__':
     print("Tester %s" % version)
@@ -66,11 +66,16 @@ if __name__ == '__main__':
     print(n_queens([0, 7, 3, 4, 7, 1, 2, 2], 0, 0))
     print("n_queens tests complete\n")
 
-    random.seed(1)
+    # DO NOT SET YOUR OWN SEED FOR THESE TESTS
+    # If you want, you can set it to 1 at the beginning of n_queens_restart
+    # This tester expects you to make N - 1 randint() calls on each iteration
+    # randrange(N) and randint(0, N-1) are identical
     # n_queens_restart does not return anything. it only prints.
     print("n_queens_restart(7, 10, 0, 0)")
+    random.seed(1)
     n_queens_restart(7, 10, 0, 0)
     print("n_queens_restart(8, 1000, 0, 0)")
+    random.seed(1)
     n_queens_restart(8, 1000, 0, 0)
     print("n_queens_restart tests complete\n")
 
@@ -80,14 +85,15 @@ if __name__ == '__main__':
     sys.stdout = backup_stdout
 
     print("Elapsed time was: %.5fs" % (endtime - starttime))
+    print("Reference runtime is ~0.75s")
     print("See diff below. "
         + "If you see nothing but the end message, you're good.")
     with open("test.txt", "r") as livefile:
-        l_text = livefile.read()
+        l_text = livefile.readlines()
         with open("ref.txt", "r") as reffile:
-            r_text = reffile.read()
+            r_text = reffile.readlines()
             for line in difflib.context_diff(l_text, r_text):
-                print(line)
+                print(line.strip())
     print("This is the end of the tester.\n\n"
           + "If you think you have a correct solution,\n"
           + "please copy the printed output of this tester\n"
