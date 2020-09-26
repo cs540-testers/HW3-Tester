@@ -16,11 +16,10 @@ on some Windows systems.
 The tester will generate a test.txt. Deleting or modifying it doesn't affect the tester.
 
 ---
-**NOTE: Do not set random.seed() in your code!!!**
+**NOTE: Set random.seed(1) at the beginning of n_queens_restart()!!!**
 
-To successfully test random results, we have fixed the random seed to 1.
-If you are setting the seed in your code, remove it so you get the same sequence
-as the tester.
+The reference output was generated with random.seed(1) set at the beginning of the n_queens_restart() function.
+Make sure you do the same to ensure you get the same random number sequence.
 
 ---
   
