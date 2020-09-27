@@ -1,7 +1,7 @@
 # HW3-Tester
 This is a tester for HW3 of CS540 at UW Madison
 
-To run, download test.py and ref.txt to your working folder.
+To run, download `test.py`, `ref.txt`, and `ref-no-nqr.txt` to your working folder.
 BACK UP YOUR CODE. WE ARE NOT RESPONSIBLE FOR DAMAGE.
 In a terminal, run
 ```
