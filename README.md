@@ -18,6 +18,7 @@ The tester will generate a test.txt. Deleting or modifying it doesn't affect the
 ---
 **NOTE: Set random.seed(1) at the beginning of n_queens_restart()!!!**
 
+**Don't freak out if n_queens_restart() fails. It requires you to generate a random state in a specific way.**
 The reference output was generated with random.seed(1) set at the beginning of the n_queens_restart() function.
 Make sure you do the same to ensure you get the same random number sequence.
 
