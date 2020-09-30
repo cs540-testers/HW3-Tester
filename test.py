@@ -65,6 +65,8 @@ if __name__ == '__main__':
     print(n_queens([0, 1, 2, 3, 5, 6, 6, 7], 1, 1))
     print("n_queens([0, 7, 3, 4, 7, 1, 2, 2], 0, 0)")
     print(n_queens([0, 7, 3, 4, 7, 1, 2, 2], 0, 0))
+    print("n_queens([0, 6, 3, 5, 7, 1, 4, 2], 0, 0)")
+    print(n_queens([0, 6, 3, 5, 7, 1, 4, 2], 0, 0))
     print("n_queens tests complete\n")
 
     # This tester expects you to make N - 1 randint() calls on each iteration
